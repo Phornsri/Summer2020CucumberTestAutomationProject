@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/vytrack/step_definitions",
         dryRun = false,
-        tags = "@add_car_scenario_outline",
+        tags = "@smoke",
         publish = true
 )
 

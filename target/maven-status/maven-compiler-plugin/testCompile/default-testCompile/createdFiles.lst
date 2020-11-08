@@ -1,3 +1,12 @@
 com/vytrack/pages/CreateCalendarEventPage.class
+com/vytrack/util/Driver.class
+com/vytrack/pages/LoginPage.class
 com/vytrack/pages/CreateCarPage.class
+com/vytrack/step_definitions/LoginStepDefinitions.class
+com/vytrack/step_definitions/CreateCarStepDefinitions.class
+com/vytrack/runners/CucumberRunners.class
+com/vytrack/step_definitions/CommonStepDefinitions.class
+com/vytrack/step_definitions/Hooks.class
+com/vytrack/pages/BasePage.class
+com/vytrack/util/ConfigurationReader.class
 com/vytrack/util/BrowserUtils.class
