@@ -1,7 +1,7 @@
 package com.vytrack.step_definitions;
 
+import com.vytrack.util.* ;
 import com.vytrack.pages.LoginPage;
-import com.vytrack.util.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,7 +12,7 @@ public class LoginStepDefinitions {
 
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
-        Driver.getDriver().get("http://qa1.vytrack.com");
+        com.vytrack.utils.Driver.getDriver().get("http://qa1.vytrack.com");
     }
 
     @When("user logs in")
@@ -28,7 +28,7 @@ public class LoginStepDefinitions {
 
         Assert.assertEquals("Title is not correct!", expected, actual);
         System.out.println("I see the Dashboard page!");
-        Driver.closeDriver();
+        com.vytrack.utils.Driver.closeDriver();
     }
 
     //When user logs in as a "driver" --> public void user_logs_in_as_a(String string) -> loginPage.login(string); -> public void login(String role) { if role == "" do this..}
