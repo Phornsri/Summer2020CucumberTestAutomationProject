@@ -1,4 +1,4 @@
-package com.vytrack.utils;
+package com.vytrack.util;
 
 import com.vytrack.util.ConfigurationReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
